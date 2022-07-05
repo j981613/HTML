@@ -1,0 +1,628 @@
+body{
+    
+    font-family: 'Noto Sans TC', 'Roboto', 微軟正黑體, sans-serif;
+    background: url(images/bg-line.svg) no-repeat 50% 50% fixed;
+    background-color: #06100e;
+    background-size: cover;
+}
+section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.container{
+    width: 1100px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin:0 auto;
+    position: relative;
+}
+.program_title, .audience_title, .agenda_title, .lecturer_title, .information1_title, .qna_title{
+    color: #fff;
+    font-weight: 700;
+    font-size: 38px;
+    text-align: center;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    line-height: 1.5em;
+}
+h3{
+    color: #fff;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.5em;
+}
+h4{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+h5{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.5em;
+}
+h6{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+/* ------------------------------------------header----------------------------------------- */
+header{
+    background-color: rgba(37, 37, 37, 0.7);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+nav{
+    width: 100%;
+    height: 70px;
+}
+.brand{
+    float: left;   
+}
+.logo {
+    display: inline-block ;
+    height:37px;
+    width: 10px;
+}
+.brand img{
+    width: 400px;
+    padding-top: 11px;
+}
+nav ul{
+    float: right;
+}
+nav ul li{
+    float: left;
+    margin-right: 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    line-height: 70px;
+    margin: 5px;
+}
+nav a.btn3{
+    background-color: rgb(45, 191, 244);
+    padding: 6px 15px;
+    border-radius: 20px;
+}
+nav a.btn3:hover{
+    background-color: rgb(254, 128, 2);
+}
+/* ------------------------------------------#main----------------------------------------- */
+#main{
+    padding-top:  80px;
+    padding-bottom: 80px;
+}
+#main .dm_spot{
+    background: url(images/dm-spot.svg) no-repeat center top;
+    background-size: contain;
+    text-align: center;
+    margin: 0 -15px 0;
+}
+.main_title{
+    color: #a1ee26;
+    font-size: 87px;
+    line-height: 1.5em;
+    font-weight: 900;
+    padding-top: 4%;
+}
+#main .box{
+    border-top: 1px solid #a1ee26;
+    border-bottom: 1px solid #a1ee26;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 30px -15px ;
+}
+#main h3{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.5em;
+}
+#main h5{
+    color: #fff;
+    padding:  15px;
+    margin-bottom: 40px;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+#main .list{
+    vertical-align: middle;
+}
+#main ul{
+    display: block;
+    margin: 0 25%;
+    padding-left: 10%;
+    text-align: justify;
+}
+#main ul li{
+    color: #a1ee26;
+    list-style-type: disc;
+    font-size: 21px;
+    line-height: 1.5em;
+    margin: 10px 0px;
+    
+}
+#main .dm_spot .time{
+    color: #06aed5;
+    margin-top: 70px;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.5em;
+}
+/* ------------------------------------------#program----------------------------------------- */
+#program .highlight{
+    background-color: #fff;
+    background-position: center center;
+    box-shadow: 6px 6px 6px 0px #ddd0 ;
+    height: 200px;
+    margin-top: 15px;
+    overflow: hidden;
+}
+#program .highlight img{
+    display: block;
+    width: 100%;
+}
+#program .box_wrap{
+    background-color: #fff;
+    padding: 30px 20px 10px 20px;
+    text-align: left;
+    min-height: 250px;
+}
+#program .box_wrap h4{
+    border-left: 2px solid #232323;
+    color: #232323;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+}
+#program .box_wrap p{
+    color: #232323;
+}
+
+#program .highlight1{
+    display: inline-block;
+    width: 340px;
+    margin-right: 20px;
+    vertical-align: top;
+}
+#program .highlight2{
+    display: inline-block;
+    width: 340px;
+    margin-right: 20px;
+    vertical-align: top;
+}
+#program .highlight3{
+    display: inline-block;
+    width: 340px;
+    vertical-align: top;
+}
+#program .btn{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+#program .program_btn{
+    background-color: rgb(45, 191, 244);
+    padding: 15px 55px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+}
+#program .program_btn:hover{
+    background-color: rgb(254, 128, 2);
+}
+/* ---------------------------------#audience--------------------------------------- */
+#audience img{
+    float: left;
+    width: 80px;
+    margin: 15px 30px 15px 0px;
+    vertical-align: middle;
+}
+#audience .text{
+    display: inline-block;
+}
+#audience h3{
+    margin-bottom: 20px;
+}
+#audience h6{
+    color: #fff;
+    margin-bottom: 20px;
+}
+#audience .box{
+    margin:0 auto;
+}
+#audience .left{
+    float: left;
+}
+#audience .right{
+    float: right;
+    margin-bottom: 80px;
+}
+
+/* ---------------------------------#agenda--------------------------------------- */
+#agenda{
+    backdrop-filter: blur(2px);
+    clear: both;
+}
+#agenda .unit_title{
+    background-color: rgb(45, 191, 244);
+    position: relative;
+
+}
+#agenda .unit_title h2{
+    color: rgba(255, 255, 255, 0.25);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 400%;
+    font-weight: 700;
+    line-height: 1em;
+}
+#agenda .unit_title h3{
+    margin: 0;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-top: 10px;
+}
+#agenda .unit_title h5{
+    text-align: center;
+    padding-bottom: 10px;
+}
+#agenda .card{
+    padding: 20px;
+    border-bottom: 0.25px solid #fff;
+}
+#agenda .card .btn{ 
+    background: none;
+    text-decoration: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+#agenda .card .btn:hover{
+    color: #a1ee26;
+}
+#agenda .card .btn .sch_date{
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-align: center;
+    display: inline;
+    margin-right: 40px;
+}
+#agenda .card .btn .sch_title{
+    display: inline-block;
+    vertical-align: middle;
+
+}
+#agenda .card .btn h3{
+    text-align: left;
+}
+#agenda .card .btn h6{
+    text-align: left;
+}
+#agenda .list{
+    background-color: rgba(49, 71, 157, 0.3);
+    margin: 0 -20px;
+    padding: 30px;
+    padding-bottom: 50px;
+}
+#agenda .list ul{
+    display: block;
+    text-align: justify;
+    margin-left:  25%;
+    padding-left: 50px;
+}
+#agenda .list ul li{
+    color: #fff;
+    list-style-type: disc;
+    font-size: 20px;
+    line-height: 1.5em;
+    margin: 10px 0px;
+}
+/* ----------------------------------------#lecturer------------------------------- */
+#lecturer .speaker1{
+    padding-left: 100px;
+}
+#lecturer .speaker_img{
+    display: inline-block;
+    width: 25%;
+    text-align: right;
+    margin-right: 30px;
+}
+#lecturer img{
+    max-width: 150px;
+    width: 100%;
+}
+#lecturer .text{
+    display: inline-block;
+    color: #fff;
+    width: 50%;
+    vertical-align: top;
+}
+#lecturer .text h4, h6{
+    line-height: 2em;
+}
+/* ---------------------------------#information1------------------------------------------ */
+#information1{
+    background-color: #045c407c;
+}
+#information1 .left{
+    float: left;
+    max-width: 50%;
+    margin-right: 30px;
+}
+#information1 .right{
+    float: right;
+    max-width: 50%;
+    vertical-align: top;
+}
+#information1 h3{
+    padding-bottom: 15px;
+}
+#information1 h3 span{
+    font-size: 20px;
+    font-weight: 400;
+}
+#information1 p{
+    color: #fff;
+}
+#information1 a{
+    color: #a1ee26;
+}
+#information1 a:hover{
+    color: #06aed5;
+}
+#information1 table{
+    background-color: #fff;
+    color: #000;
+    border-collapse: collapse;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 500;
+    
+    vertical-align: middle;
+    width: 100%;
+}
+#information1 table th{
+    padding: 1.5em 2.5em;
+    width: 50%;
+    text-align: center;
+    border-bottom: 2px solid #06100e;
+}
+#information1 table td{
+    padding: 1.5em 2.5em;
+    text-align: center;
+    width: 50%;
+}
+#information1 thead th:nth-child(2){
+    background-color: #a1ee26;
+}
+#information1 tbody td:nth-child(2){
+    background-color: #a1ee26;
+}
+#information1 span{
+    font-size: 36px;
+    font-weight: 700;
+}
+#information1 .btn {
+    text-align: center;
+    clear: both;
+
+}
+#information1 .btn a{
+    display: inline-block;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    background-color: rgb(45, 191, 244);
+    padding: 15px 55px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+}
+#information1 .btn a:hover{
+    background-color: rgb(254, 128, 2);
+}
+/* ---------------------------------#information2--------------------------------- */
+#information2{
+    background-color: #045c407c;
+}
+#information2 .left{
+    display: inline-block;
+    max-width: 50%;
+    vertical-align: top;
+    padding-top: 8%;
+}
+#information2 img{
+    display: inline-block;
+    width: 95%;
+}
+#information2 img a{
+    display: inline-block;
+    vertical-align: middle;
+}
+#information2 .right{
+    display: inline-block;
+    max-width: 50%;
+    text-align: justify;
+}
+#information2 h3{
+    color: #a1ee26;
+    line-height: 2em;
+}
+#information2 h5{
+    color: #a1ee26;
+    line-height: 2em;
+}
+#information2 p{
+    color: #fff;
+}
+#information2 .btn{
+    text-align: center;
+}
+#information2 .btn a{
+    display: inline-block;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    background-color: #a1ee26;
+    padding: 15px 55px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+}
+#information2 .btn a:hover{
+    color: #06100e;
+}
+/* ------------------------------------#qna-------------------------------------- */
+#qna li{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+#qna h3{
+    color: #fff;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 2em;
+}
+#qna p{
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+#qna p a{
+    color: #a1ee26;
+    text-decoration: none;
+}
+#qna p a:hover{
+    color: #06aed5;
+}
+/* ------------------------------------#line---------------------------------------- */
+#line{
+    z-index: 900;
+}
+#line .right_line{
+    background: url(images/dm-line.svg);
+    background-color: #06aed5;
+    background-position: center 0;
+    background-size: 24px;
+    background-repeat: repeat-y;
+    width: 40px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;  
+}
+#line .left_line{
+    background: url(images/dm-line.svg);
+    background-color: #06aed5;
+    background-position: center 0;
+    background-size: 24px;
+    background-repeat: repeat-y;
+    width: 40px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+/* -------------------------------------------#organizer-------------------------------------------- */
+#organizer{
+    background-color: #fff;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+#organizer p{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+}
+#organizer img{
+    display: inline-block;
+    height: 50px;
+    margin-right: 20px;
+    vertical-align: top;
+}
+/* --------------------------------------------footer-------------------------------------------- */
+footer{
+    background-color: #000;
+    width: 100%;
+}
+footer ul{
+    text-align: center;
+    padding: 25px 0;
+}
+footer li{
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0 10px;
+}
+footer .line{
+    border-right: 2px solid #fff;
+}
+footer p{
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+footer .btn{
+    text-decoration: none;
+    background-color: #06aed5;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 45px;
+    text-align: center;
+    position: fixed;
+    right: 40px;
+    bottom: 80px;
+    box-shadow: 2px 2px 6px -2px #888;
+}
+footer span{
+    display: block;
+    margin-top: -25px;
+}
+footer .btn:hover{
+    background-color: rgb(254, 128, 2);
+}
+footer .up{
+    text-decoration: none;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: #a1ee26d3;
+    color: #fff;
+    line-height: 55px;
+    text-align: center;
+    position: fixed;
+    right: 20px;
+    bottom: 15px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
